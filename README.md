@@ -41,7 +41,7 @@ The python MySQL connection is established as
 follows
 import mysql.connector
 db=m.connect(host="localhost", database="zayka_menu", 
-user="root", passwd="$hrey@n13")
+user="root", passwd="**********")
 mc=db.cursor()
 Where mc is the cursor. Now any SQL command can 
 be used as
